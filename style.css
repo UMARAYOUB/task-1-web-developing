@@ -1,0 +1,59 @@
+.form-container {
+    margin: 30px 200px;
+    width: 60%;
+    padding: 16px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Added box shadow */
+    border-radius: 8px;
+    color: rgb(52, 53, 53);
+}
+
+h2 {
+    color: rgb(82, 77, 77);
+}
+
+.form-container input[type="text"],
+.form-container input[type="date"],
+.form-container input[type="email"] {
+    width: 30%;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.form-container label[for="fname"],
+.form-container label[for="mnumber"],
+.form-container label[for="idtype"],
+.form-container label[for="issueauthority"] {
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+.form-container label[for="dob"],
+.form-container label[for="gender"],
+.form-container label[for="iddated"],
+.form-container label[for="issuestate"] {
+    margin-left: 25%;
+    font-weight: bold;
+}
+
+.form-container label[for="Email"],
+.form-container label[for="occupation"],
+.form-container label[for="idnumber"],
+.form-container label[for="idexpiry"] {
+    margin-left: 20%;
+    font-weight: bold;
+}
+
+.form-container button {
+    background-color: #185fe3;
+    border: 1px solid rgb(38, 82, 225);
+    color: white;
+    border-radius: 8px;
+    padding: 10px 60px;
+    cursor: pointer;
+    float: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
